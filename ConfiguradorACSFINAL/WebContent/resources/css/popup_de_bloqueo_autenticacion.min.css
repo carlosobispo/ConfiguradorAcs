@@ -1,0 +1,113 @@
+/* ==========================================================================
+	UTILIDADES
+	========================================================================== */
+.u-upper {
+  text-transform: uppercase;
+}
+.u-floatRight {
+  float: right;
+}
+.u-floatLeft {
+  float: left;
+}
+.u-clearFloat {
+  overflow: hidden;
+}
+.u-colorNaranja {
+  color: #fd6702 !important;
+}
+.u-colorAzul {
+  color: #004a91 !important;
+}
+/* ==========================================================================
+HEADER
+=========================================================================== */
+.Header {
+  margin-bottom: 35px;
+  padding-top: 15px;
+  overflow: hidden;
+}
+.Header-logoVerifyVisaContainer {
+  height: 50px;
+  float: left;
+}
+.Header-logoVerifyVisaContainer img {
+  height: 100%;
+}
+.Header-logoBcpContainer {
+/* height: 25px;*/
+  float: right;
+}
+.Header-logoBcpContainer img {
+  height: 100%;
+}
+.Header-imageContainer {
+  margin: 0 auto;
+  width: 200px;
+}
+/* ==========================================================================
+MAIN
+=========================================================================== */
+.Main {
+  margin: 20px auto 0 auto;
+  font-family: "pt_sans_regular", Arial, san-serif;
+}
+.Main-title {
+  color: #004a91;
+  font: 13px "pt_sans_bold", Arial, san-serif;
+  margin: 0 0 16px 0;
+  overflow: hidden;
+}
+.Main-descripcion {
+  color: #48484d;
+}
+.Main-descripcion p {
+ text-align: justify;
+ margin-bottom: 10px;
+ font-size: 13px;
+ line-height: 18px;
+}
+.FormButtons {
+  bottom: 10px;
+  left: 50%;
+  margin-left: -49px;
+  position: absolute;
+  width: 98px;
+}
+.FormButtons-botonContinuar {
+  background-color: #fd6702;
+  -webkit-box-shadow: 1px 1px 2px #686868;
+  box-shadow: 1px 1px 2px #686868;
+  border: none;
+  color: #fff;
+  display: block;
+  font: 13px "pt_sans_bold", Arial, san-serif;
+  height: 23px;
+  margin: 0 auto 10px auto;
+  width: 95px;
+}
+.FormButtons-botonContinuar:hover {
+  background: #ff4d00;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fe6200), to(#ff4d00));
+  background: -webkit-linear-gradient(#fe6200, #ff4d00);
+  background: linear-gradient(#fe6200, #ff4d00);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 720px) {
+  .Main-title {
+    font-size: 14px;
+  }
+  .Main-descripcion p {
+    font-size: 14px;
+  }
+  .FormButtons {
+    padding-top: 20px;
+    position: static;
+    margin: 0 auto;
+  }
+  .FormButtons-botonContinuar {
+    font-size: 14px;
+  }
+}

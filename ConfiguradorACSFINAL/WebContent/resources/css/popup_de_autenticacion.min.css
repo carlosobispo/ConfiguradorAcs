@@ -1,0 +1,335 @@
+/* ==========================================================================
+	UTILIDADES
+	========================================================================== */
+.u-upper {
+  text-transform: uppercase;
+}
+.u-floatRight {
+  float: right;
+}
+.u-floatLeft {
+  float: left;
+}
+.u-clearFloat {
+  overflow: hidden;
+}
+.u-colorNaranja {
+  color: #fd6702 !important;
+}
+.u-colorAzul {
+  color: #004a91 !important;
+}
+/* ==========================================================================
+HEADER
+=========================================================================== */
+.Header {
+  margin-bottom: 32px;
+  padding-top: 15px;
+  overflow: hidden;
+}
+.Header-logoVerifyVisaContainer {
+  /*height: 41px;*/
+  height: 50px;
+  float: left;
+}
+.Header-logoVerifyVisaContainer img {
+  height: 100%;
+}
+.Header-logoBcpContainer {
+  /*height: 25px;*/
+  float: right;
+}
+.Header-logoBcpContainer img {
+  height: 100%;
+}
+.Header-imageContainer {
+  margin: 0 auto;
+  width: 200px;
+}
+/* ==========================================================================
+MAIN
+=========================================================================== */
+.Main {
+  margin: 0 auto;
+  font-family: "pt_sans_regular", Arial, san-serif;
+}
+.Main-title {
+  color: #004a91;
+  font: 13px "pt_sans_bold", Arial, san-serif;
+  margin: 0 0 6px 0;
+}
+.Main-descripcion {
+  color: #48484d;
+  font-size: 12px;
+}
+.Main-descripcion p {
+  text-align: center;
+  margin-bottom: 7px;
+}
+.FormularioAutenticacion-title {
+    color: #48484d;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+.FormularioAutenticacion-campoContainer {
+  color: #515255;
+  overflow: hidden;
+}
+.FormularioAutenticacion-campoContainer label.error {
+  display: none !important;
+}
+.FormularioAutenticacion .label-message--error {
+  color: #fd6702;
+}
+.FormularioAutenticacion .label-message--focus {
+  color: #fd6702;
+}
+.FormularioAutenticacion-campoLabel {
+  color: #515255;
+  display: block;
+  font: 12px "pt_sans_bold", Arial, san-serif;
+  line-height: 26px;
+  float: left;
+  text-align: right;
+  width: 48%;
+  margin-right: 5%;
+}
+.FormularioAutenticacion-campoLabel--error {
+  color: #fd6702;
+}
+.FormularioAutenticacion-campoValue {
+  float: left;
+  font-size: 12px;
+  line-height: 26px;
+  width: 47%;
+}
+.FormularioAutenticacion-iconKey {
+  display: block;
+  height: 20px;
+  position: absolute;
+  width: 26px;
+  border-right: 1px solid #eee;
+  padding-top: 6px;
+}
+.FormularioAutenticacion-iconKey img {
+  margin: 0 auto;
+}
+.FormularioAutenticacion-input {
+  background: transparent url("../images/bg-form-input.jpg") 0 0 repeat-x;
+  border: 1px solid #d7d8db;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #4f5154;
+  float: left;
+  font: 12px "pt_sans_regular", Arial, san-serif;
+  height: 26px;
+  line-height: 26px;
+  width: 168px;
+  padding: 0 5px;
+}
+.FormularioAutenticacion-input:focus {
+  background: transparent url("../images/bg-focus-form-input.jpg") 0 0 repeat-x;
+  border-color: #c0d2dd;
+}
+.FormularioAutenticacion-input--password {
+  padding-left: 31px;
+  font-size: 16px;
+}
+.FormularioAutenticacion-input--password:focus {
+  background: transparent url("../images/bg-form-input.jpg") 0 0 repeat-x;
+  border-color: #eee;
+}
+.FormularioAutenticacion-input--anclaje {
+  background: transparent url("../images/bg-anclaje-form-input.jpg") 0 0 repeat-x;
+  border-color: #d6d5da;
+  color: #acaab3;
+}
+.FormularioAutenticacion-input--anclaje:focus {
+  background: transparent url("../images/bg-anclaje-form-input.jpg") 0 0 repeat-x;
+  border-color: #d6d5da;
+  color: #acaab3;
+}
+.FormularioAutenticacion-tecladoContainer {
+  background-color: #d7d8db;
+  height: 75px;
+  float: right;
+  width: 168px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 2px 0 0 1px;
+  margin-right: 6px;
+  margin-top: 10px;
+}
+.FormularioAutenticacion-tecla {
+  cursor: pointer;
+  float: left;
+  height: auto;
+  width: 25%;
+}
+.FormularioAutenticacion-tecla--limpiar {
+  width: 50%;
+}
+.FormularioAutenticacion-tecla img {
+  width: 100%;
+}
+.FormularioAutenticacion-errorMessage {
+  color: #ff0302;
+  display: none;
+  float: left;
+  font-size: 12px;
+  line-height: 13px;
+  margin-top: 5px;
+  text-align: left;
+  width: 168px;
+}
+.FormButtons {
+  overflow: hidden;
+  margin-top: 10px;
+}
+.FormButtons-enviarContainer {
+  float: right;
+  width: 47%;
+}
+.FormButtons-botonEnviar {
+ /* background-color: #aca9b3;
+  float: left;
+  -webkit-box-shadow: 1px 1px 2px #686868;
+  box-shadow: 1px 1px 2px #686868;
+  border: none;
+  color: #fff;
+  font: 13px "pt_sans_bold", Arial, san-serif;
+  height: 23px;
+  margin-bottom: 5px;
+  width: 76px;
+  margin-right: 10px;*/
+    background-color: #aca9b3;
+    float: left;
+    border: none;
+    color: #fff;
+    font: 13px "pt_sans_bold", Arial, san-serif;
+    height: 23px;
+    margin-bottom: 5px;
+    width: 76px;
+    margin-right: 10px;
+    text-align: -webkit-center;
+    padding-top: 2px;
+}
+.FormButtons-botonEnviar:hover {
+  background: #7f7e83;
+  background: -webkit-gradient(linear, left top, left bottom, from(#a6a3ac), to(#7f7e83));
+  background: -webkit-linear-gradient(#a6a3ac, #7f7e83);
+  background: linear-gradient(#a6a3ac, #7f7e83);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.FormButtons-iconContainer {
+  float: left;
+  height: 23px;
+  margin-right: 14px;
+}
+.FormButtons-iconAyuda {
+  display: block;
+  margin-top: 2px;
+}
+.FormButtons-iconAyuda a {
+  display: block;
+}
+.FormButtons-textoCancelar {
+  float: left;
+  display: block;
+  height: 24px;
+}
+.FormButtons-textoCancelar a {
+  color: #48484d;
+  font-size: 13px;
+  line-height: 24px;
+}
+.FormButtons-textoCancelar a:hover {
+  color: #fd6702;
+}
+.FormButtons .is-valid {
+  background-color: #fd6702;
+}
+.FormButtons .is-valid:hover {
+  background: #ff4d00;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fe6200), to(#ff4d00));
+  background: -webkit-linear-gradient(#fe6200, #ff4d00);
+  background: linear-gradient(#fe6200, #ff4d00);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 720px) {
+  .FormularioAutenticacion-campoLabel {
+    text-align: left;
+    font-size: 13px;
+  }
+  .FormularioAutenticacion-campoValue {
+    text-align: right;
+    font-size: 13px;
+  }
+  .FormularioAutenticacion-input {
+    float: none;
+    width: 100%;
+    font-size: 13px;
+  }
+  .FormularioAutenticacion-tecladoContainer {
+    height: auto;
+    padding: 3px 1px 1px 3px;
+    width: 100%;
+    margin-right: 0;
+  }
+  .FormularioAutenticacion-tecla {
+    height: auto;
+  }
+  .FormularioAutenticacion-tecla img {
+    width: 100%;
+  }
+  .FormularioAutenticacion-errorMessage {
+    width: 100%;
+    font-size: 13px;
+  }
+  .FormButtons-enviarContainer {
+    float: none;
+    width: 100%;
+  }
+  .FormButtons-botonEnviar {
+    font-size: 20px;
+    height: 35px;
+    width: 220px;
+    margin-right: 20px;
+  }
+  .FormButtons-iconContainer {
+    height: 41px;
+  }
+  .FormButtons-iconAyuda {
+    margin-top: 7px;
+  }
+  .FormButtons-textoCancelar {
+    height: 35px;
+  }
+  .FormButtons-textoCancelar a {
+    font-size: 14px;
+    line-height: 32px;
+  }
+}
+
+.
+FormButtons-enviarContainer img{
+	display: block;
+    border: none;
+    float: left;
+}
+
+.btnEnviar{
+	display: block;
+    border: none;
+    float: left;
+}
+
+
+
+

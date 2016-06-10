@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "\\tiles-config_2_0.dtd">
+<tiles-definitions>
+
+<!-- 
+		Definimos las plantillas de la aplicacion 
+-->
+	<definition name="t_plantilla"  template="/templates/plantilla.jsp" >
+		<put-attribute name="header" value="/templates/header.jsp"/>
+		<put-attribute name="menu" value="/templates/menu.jsp"/>		
+	</definition>
+		
+<!-- Fin de las plantilla -->
+<!-- 
+		Definimos los JSP que consumen las plantillas 
+-->
+ 	<definition name="t_bienvenida"  extends="t_plantilla">
+		<put-attribute name="central" value="/pages/bienvenida.jsp"/>
+	</definition>	
+	
+	<definition name="t_listaEmisor"  extends="t_plantilla">
+		<put-attribute name="central" value="/adminALG/listaEmisor.jsp"/>
+	</definition>	
+	
+	<definition name="t_newRegistroEmisor"  extends="t_plantilla">
+		<put-attribute name="central" value="/adminALG/crearEmisor.jsp"/>
+	</definition>	
+		
+	<definition name="t_actualizarEmisor"  extends="t_plantilla">
+		<put-attribute name="central" value="/adminALG/actualizarEmisor.jsp"/>
+	</definition>		
+
+	<definition name="t_pantallaTarjetaBloqueada"  extends="t_plantilla">
+		<put-attribute name="central" value="/adminEmisor/configPantallaTarjetaBloqueada.jsp"/>
+	</definition>		
+
+	<definition name="t_pantallaTarjetaNoAfiliada"  extends="t_plantilla">
+		<put-attribute name="central" value="/adminEmisor/configPantallaTarjetaNoAfiliada.jsp"/>
+	</definition>		
+
+	<definition name="t_pantallaAutenticacionClaveIncorrecta"  extends="t_plantilla">
+		<put-attribute name="central" value="/adminEmisor/configAutenticacionClaveIncorrectaExpirada.jsp"/>
+	</definition>		
+
+	<definition name="t_configLogo"  extends="t_plantilla">
+		<put-attribute name="central" value="/adminEmisor/configLogo.jsp"/>
+	</definition>	
+		
+	<definition name="t_configEnvioClaveDinamica"  extends="t_plantilla">
+		<put-attribute name="central" value="/adminEmisor/configEnvioClaveDinamica.jsp"/>
+	</definition>	
+
+	<definition name="t_pantallaNotificacionEnrolamiento"  extends="t_plantilla">
+		<put-attribute name="central" value="/adminEmisor/configNotificacionEnrolamiento.jsp"/>
+	</definition>	
+
+	<definition name="t_errorGeneral"  extends="t_plantilla">
+		<put-attribute name="central" value="/pages/errorGeneral.jsp"/>
+	</definition>	
+	
+</tiles-definitions>
+
+
+
+
+
+
+
+
+

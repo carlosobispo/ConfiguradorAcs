@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- name="ConfigACS" -->
+<project  name="ConfiguradorACS" default="Generar EAR Testing" basedir=".">
+	
+	<property environment="env" />
+	<!-- Tarea para generar el ear de Testing -->
+
+	
+	
+	<target name="ear" description="Generar el EAR">
+			    <copy file="target/ConfiguradorACS-1.0.war" tofile="target/ConfiguradorACS-1.0.war" />
+				
+				<ear destfile="target/ConfiguradorACS-1.0.ear"
+			        basedir="target"
+			        includes="ConfiguradorACS-1.0.war"
+			        appxml="application.xml">
+			    </ear>
+		
+			    <delete file="target/ConfiguradorACS-1.0.war" />
+	</target>
+	
+	<target name="Generar EAR Testing">
+
+		<exec executable="mvn.bat">
+			<arg value="package" />
+		</exec>
+		
+	</target>
+	
+	
+
+	<!-- Tarea para actualizar librerías del proyecto con el pom.xml -->
+	<target name="eclipse">
+		<exec executable="mvn.bat">
+			<arg value="eclipse:eclipse" />
+		</exec>
+	</target>
+	
+	<!-- Tarea para limpiar la carpeta target -->
+	<target name="limpiarTarget">
+		<exec executable="mvn.bat">
+			<arg value="clean" />
+		</exec>
+	</target>
+	
+
+
+</project>

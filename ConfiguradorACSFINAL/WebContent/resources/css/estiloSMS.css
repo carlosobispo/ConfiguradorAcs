@@ -1,0 +1,86 @@
+
+.contentSMS{
+	background-color: #fff;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #48484d;
+    margin: 0 auto;
+    margin-top: 8%;
+    max-width: 390px;
+    /* min-height: 400px; */
+    padding: 0 10px;
+    position: relative;
+}
+
+timeline-comment-wrapper {
+    position: relative;
+    padding-left: 64px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.timeline-comment-avatar {
+    float: left;
+    margin-left: -64px;
+    border-radius: 3px;
+}
+
+
+.timeline-comment {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.comment-body {
+    width: 100%;
+    padding: 15px;
+    overflow: visible;
+    font-size: 14px;
+}
+
+.markdown-body {
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    line-height: 1.6;
+    word-wrap: break-word;
+}
+
+.contentTextSMS{
+	-webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+
+.contentTextSMS timeline-comment{
+	-webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+/*** ESTILO PARA EMAIL ***/
+
+
+#imageSMS{
+	float: left;
+    margin-right: 20px;
+}
+
+.fechaEmail{
+	font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.remitente{
+	font-size: 20px;
+    margin-bottom: 5px;
+}
+
+
+
