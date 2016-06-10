@@ -65,7 +65,7 @@ public class CardRangeBean implements Serializable {
 		this.in_idLanguaje = in_idLanguaje;
 	}
 	
-	/**Para listar  */
+	/**Para listar*/
 	public CardRangeBean(String vc_firstrange, String vc_lastrange,	Integer vc_idState, String ch_useADC) {		
 		this.vc_firstrange = vc_firstrange;
 		this.vc_lastrange = vc_lastrange;
